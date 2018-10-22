@@ -1,0 +1,3 @@
+
+
+ruby -I./  demo.rb
