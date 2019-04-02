@@ -16,9 +16,12 @@ require_relative 'CompositeTask'
 class Page < CompositeTask
 
   attr_accessor :root   # The head page (or component)
+  attr_reader   :verbose
 
   def initialize(name)
     super(name)
+
+    @verbose=false
     
     # Define the Header
     header=CompositeTask.new('Header')
@@ -58,7 +61,7 @@ class Page < CompositeTask
     @root.add_sub_task(header)
     @root.add_sub_task(footer)
 
-    if false
+    if @verbose
       puts '-' * 72
       @root.print
 
