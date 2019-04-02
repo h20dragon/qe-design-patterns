@@ -3,10 +3,12 @@ require_relative './real-vehicles/harley'
 
 
 porsche = Porsche.new()
-porsche.showSpecs()
+#porsche.showSpecs()
 porsche.start()
 
 
+puts '-' * 72
+
 harley = Harley.new()
-harley.showSpecs()
+#harley.showSpecs()
 harley.start()
