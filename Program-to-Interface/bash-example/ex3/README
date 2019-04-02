@@ -1,0 +1,11 @@
+
+
+
+./test-checkday.sh --day Mon && ./test-search.sh --search Elxxvis --file ./data/data-1.txt
+
+
+1. genReport
+2. Exit codes as a standard
+2. Pytest integration
+3. Update utils.sh to report the current 'date' (shows scalability)
+

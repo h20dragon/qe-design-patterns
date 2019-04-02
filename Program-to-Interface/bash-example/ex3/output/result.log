@@ -1,0 +1,17 @@
+== [test-regression.sh] Tue Apr  2 10:06:43 PDT 2019 REGRESSION TESTS ==
+Tue Apr  2 10:06:43 PDT 2019 Verify string Elvis found in file ../ex1/data/data-1.txt : Pass
+Tue Apr  2 10:06:43 PDT 2019 Verify day is Mon. : Fail
+Tue Apr  2 10:06:43 PDT 2019 Verify string Waldo found in file ../ex1/data/data-1.txt : Fail
+Tue Apr  2 10:06:43 PDT 2019 Verify string Paul found in file ../ex1/data/data-1.txt : Fail
+F
+--------------- generated xml file: /tmp/test-numbers.35673.xml ----------------
+=================================== FAILURES ===================================
+_______________________________ test_numbers_3_4 _______________________________
+
+    def test_numbers_3_4():
+>       assert 3+4 == 8
+E       assert (3 + 4) == 8
+
+python-tests/test-numbers.py:10: AssertionError
+1 failed in 0.03 seconds
+Tue Apr  2 10:06:43 PDT 2019 Python Number tests : Fail
