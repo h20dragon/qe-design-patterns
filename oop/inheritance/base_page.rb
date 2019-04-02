@@ -22,7 +22,20 @@ class BasePage
   end
 
   def loadPage(url)
-    @driver.get(url)
+    @url=url
+    @driver.get(@url)
+    getTitle()
+  end
+
+  def click(locator)
+    @driver.click(locator)
+    getTitle()
+  end
+
+
+  def enterText(locator, text)
+    getElement(locator).sendKeys(text) 
+    return getElement(locator).getText()
   end
 
 end

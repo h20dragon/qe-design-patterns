@@ -5,6 +5,9 @@ class SignupPage < BasePage
 
   def initialize(driver)
     super
+    @userNameElement={:id => 'user'}
+    @passwdElement={:name => 'pass'}
+    @okButton={:xpath => '//*[text="Submit"]'}
   end
 
   def load()
@@ -12,11 +15,10 @@ class SignupPage < BasePage
   end
 
   def signup(username, password)
-    first_name = getElement()
-    last_name = getElement()
+    first_name = enterText(@userNameElement, "Elvis")
+    last_name = enterText(@passwdElement, "Graceland")
 
-    first_name.sendKeys("Elvis")
-    last_name.sendKeys("Presley")
+    click(@okButton)
   end
 
 end
