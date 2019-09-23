@@ -69,3 +69,5 @@ run_test()
 run_test
 RC=$?
 genReport "Verify string $SEARCH_WORD found in file $TEST_FILE"  $RC
+exit $RC
+
