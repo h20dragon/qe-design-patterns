@@ -86,6 +86,9 @@ class Page < CompositeTask
 end
 
 
+#
+# MAIN
+#
 loginPage=Page.new('Login')
 loginPage.dump()
 
