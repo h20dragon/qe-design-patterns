@@ -46,9 +46,9 @@ done
 
 run_test()
 {
-   date >$LOG
+   echo "Executing day test .."
 
-   grep $QDAY $LOG 2>&1 >$LOG
+   date | grep $QDAY 2>&1 >$LOG
    result=$?
    return $result
 }
