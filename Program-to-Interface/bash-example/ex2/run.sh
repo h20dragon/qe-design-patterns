@@ -6,4 +6,22 @@ echo "Executing ./test-checkday.sh --day Mon && ./test-search.sh --search Elxxvi
 echo ".. expect only first test to run, since it fails next command is not executed."
 
 
-./test-checkday.sh --day Mon && ./test-search.sh --search Elxxvis --file ./data/data-1.txt
+
+test_fail_fast()
+{
+./test-checkday.sh --day Sun && ./test-search.sh --search Elxvis --file ./data/data-1.txt
+}
+
+
+
+test_regression()
+{
+./test-checkday.sh --day Sun
+./test-search.sh --search Elxvis --file ./data/data-1.txt
+./test-numbers.sh
+}
+
+
+
+test_regression
+
