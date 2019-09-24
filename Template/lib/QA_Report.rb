@@ -9,7 +9,7 @@ class QA_Report < Report
      puts "Passed: 100"
      puts "Falied:   1"
      puts "Skipped:  1\n"
-     puts "Result: FAIL
+     puts "Result: FAIL"
   end
 
   
