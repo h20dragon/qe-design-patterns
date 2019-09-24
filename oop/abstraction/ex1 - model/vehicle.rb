@@ -1,5 +1,6 @@
-
-
+#
+# Example of a class modeling a Vehicle.
+#
 
 class Vehicle
 
@@ -15,9 +16,20 @@ class Vehicle
       puts "[Vehicle.initialize]\n\n"
     end
 
-    def start()
-      puts "[Vehicle.start]"
-      puts "Turn ignition key to on\n\n"
+    def insert_key()
+        puts "Insert Key"
+    end
+
+    def turn_key_clock_clockwise()
+        puts "Turn Key Clockwise"
+    end
+
+    def pressBrake()
+      puts "Press Brake"
+    end
+
+    def turn_key_counter_clockwise()
+        puts "Turn Key counter clockwise"
     end
 
     def showSpecs()
@@ -28,14 +40,14 @@ class Vehicle
       puts "\tEngine Type: #{@engineType}\n\n"
     end
 
-
-
 end
 
 
+#
+# MAIN
+#
 porsche = Vehicle.new()
-porsche.showSpecs()
-porsche.start()
+porsche.pressBrake()
+porsche.insert_key()
+porsche.turn_key_counter_clockwise()
 
-
-puts porsche.doors
