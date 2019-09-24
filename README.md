@@ -1,37 +1,18 @@
-## Welcome to GitHub Pages
+## Welcome STPCon 2019 Colleagues
 
-You can use the [editor on GitHub](https://github.com/h20dragon/qe-design-patterns/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+Thanks again for attending our workshop on software design patterns .. and principles, here in Boston!
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Principes
 
-### Markdown
+DRY - Don't Repeat Yourself
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Separation of concerns
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
 ### Jekyll Themes
 
 Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/h20dragon/qe-design-patterns/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
 
-### Support or Contact
+### Join the largest and most active software testing meetup in the DC area!
 
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+Join [DCAST.io](http://dcast.io/)
