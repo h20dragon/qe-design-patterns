@@ -14,7 +14,7 @@ class BasePage
   end
 
   def getElement(locator)
-    @driver.find(..)
+    puts "@driver.find()"
   end
 
   def getTitle()
