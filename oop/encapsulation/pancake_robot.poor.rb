@@ -24,6 +24,7 @@ class PancakeRobot
 
    def cookeOnePancake
      # Code to cook
+     # Let's protect this from the user (client)
     puts "cooking 1 pancake with special recipe."
   end
 
