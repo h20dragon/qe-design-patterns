@@ -21,6 +21,8 @@ class PancakeRobot
     @specialRecipe = "cinnamon"
   end
 
+  # The details for making a pancake are not exposed.
+  # The user (client) can only 'place an order'.
    private def cookeOnePancake
      # Code to cook
     puts "cooking 1 pancake with special recipe."
@@ -40,7 +42,9 @@ class PancakeRobot
 
 end
 
-
+#
+# MAIN
+#
 robot = PancakeRobot.new()
 
 robot.placeOrder(2)
