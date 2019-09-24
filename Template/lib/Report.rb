@@ -14,7 +14,7 @@ class Report
   def output_summary
     puts "Summary - Pass/fail/skipped"
   end
-  
+
   def output_report
     output_header
     
@@ -23,3 +23,4 @@ class Report
     output_summary
   end
 end
+
